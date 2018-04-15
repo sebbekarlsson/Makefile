@@ -10,7 +10,7 @@ else
     FLAGZ=$(G_FLAGZ) -std=c++11 -lsomelib
 endif
 
-EXEC = vbscript.out
+EXEC = app.out
 SOURCES = $(wildcard src/*.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 
